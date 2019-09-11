@@ -8,7 +8,16 @@ defmodule DivvyHouse do
     |> id
   end
 
-  def traverse_x(%{x: x} = struct, x_target) when x == x_target do
+
+
+
+  # def answer([x, y]) do
+  #   d = 1
+
+  #   an = a1 + d(n - 1)
+  # end
+
+  def traverse_x(%{x: x} = struct, x_target) when x == x_target  do
     struct
   end
 
@@ -22,6 +31,7 @@ defmodule DivvyHouse do
   def traverse_y(%{y: y} = struct, y_target) when y == y_target do
     struct
   end
+
 
   def traverse_y(struct, y_target) do
     traverse_y(

@@ -7,6 +7,6 @@ defmodule DivvyHouseTest do
     assert DivvyHouse.answer([2, 4]) == 12
     assert DivvyHouse.answer([4, 1]) == 10
     assert DivvyHouse.answer([4, 2]) == 14
-    # assert DivvyHouse.answer([100000,100000]) == 20000000001
+    assert DivvyHouse.answer([100000, 100000]) == 20000000001
   end
 end
