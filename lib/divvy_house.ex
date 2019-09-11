@@ -8,9 +8,6 @@ defmodule DivvyHouse do
     |> id
   end
 
-
-
-
   # def answer([x, y]) do
   #   d = 1
 
